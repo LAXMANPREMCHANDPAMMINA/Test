@@ -50,18 +50,35 @@
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="GitHub" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="GitHub" sap:VirtualizedContainerService.HintSize="634,637.3333333333334" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+        <av:Size x:Key="ShapeSize">60,74.66666666666667</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.16666666666667 300,190 280,190</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Null />
+      <x:Reference>__ReferenceID0</x:Reference>
     </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">80,177.33333333333334</av:Point>
+          <av:Size x:Key="ShapeSize">200,25.333333333333332</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap:VirtualizedContainerService.HintSize="200,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Sequence>
+    </FlowStep>
   </Flowchart>
 </Activity>
